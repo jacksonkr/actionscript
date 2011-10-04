@@ -1,0 +1,1 @@
+﻿package com.jacksonkr.utils {	import flash.display.DisplayObjectContainer;	import flash.display.Shape;	public function average(array:Array):Number {		var b:Number = 0;				for each(var val:Number in array) b += val;				return val / array.length;	}}
